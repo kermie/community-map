@@ -50,7 +50,7 @@ h2 {
 }
 
 a {
-  color: #c02124;
+  color: #189eff;
   text-decoration: none;
   -webkit-transition: color 100ms ease-out;
   -o-transition: color 100ms ease-out;
@@ -58,7 +58,7 @@ a {
 
   &:hover,
   &:focus {
-    color: #c02124;
+    color: #189eff;
   }
 }
 
@@ -103,7 +103,7 @@ abbr[title] {
   &:hover,
   &:focus {
     .infobanner__redaxo {
-      background: #c02124;
+      background: #189eff;
     }
     .infobanner__join {
       background: #3335;
@@ -121,7 +121,7 @@ abbr[title] {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #c02124;
+  background: #189eff;
   color: #fff;
   height: 25px;
   padding: 0 15px;
@@ -151,7 +151,7 @@ abbr[title] {
   align-items: center;
   height: 25px;
   background: #3335;
-  color: #c02124;
+  color: #189eff;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding: 0 15px;
@@ -215,7 +215,7 @@ abbr[title] {
   &:hover,
   &:focus {
     i {
-      background-color: #c02124;
+      background-color: #189eff;
     }
   }
 
@@ -227,7 +227,7 @@ abbr[title] {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: #c02124;
+    background: #189eff;
   }
   > i {
     -webkit-transform: translate(-50%, -50%) rotate(45deg);
@@ -270,13 +270,13 @@ abbr[title] {
 }
 
 .leaflet-bar a {
-  background-color: #c02124;
+  background-color: #189eff;
   color: #fff;
   border-bottom-color: #fff;
 
   &:hover,
   &:focus {
-    background-color: #c02124;
+    background-color: #189eff;
   }
 }
 
@@ -293,13 +293,13 @@ abbr[title] {
 .marker-cluster-small,
 .marker-cluster-medium,
 .marker-cluster-large {
-  background-color: rgba(#c02124, 0.6);
+  background-color: rgba(#189eff, 0.6);
 }
 
 .marker-cluster-small div,
 .marker-cluster-medium div,
 .marker-cluster-large div {
-  background-color: rgba(#c02124, 0.6);
+  background-color: rgba(#189eff, 0.6);
 }
 
 /* leaflet popup content styles */
