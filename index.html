@@ -12,8 +12,8 @@ layout: compress
 
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <meta name="keywords" content="oxid,community,ecommerce, shopsoftware people,map,github,leaflet">
-    <meta name="author" content="Friends Of Oxid (FOO)"> 
+    <meta name="keywords" content="shopware,community,ecommerce,shopsoftware people,map,github,leaflet">
+    <meta name="author" content="Shopware Community"> 
     <meta name="robots" content="index, follow">
 
     <!-- styles -->
@@ -47,7 +47,7 @@ layout: compress
 
     <!-- twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@FriendsOfOxid">
+    <meta name="twitter:site" content="@ShopwareDevs">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
     <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta name="twitter:image" content="{{ '/icons/redaxo-community.png' | absolute_url }}">
@@ -60,7 +60,7 @@ layout: compress
             "@context": "http://schema.org",
             "@type": "WebSite",
             "name": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
-            "publisher": "Friends Of Oxid (FOO)",
+            "publisher": "Shopware Community",
             "url": "{{ page.url | absolute_url }}",
             "description": "{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
             "image": "{{ '/icons/redaxo-community.png' | absolute_url }}"
@@ -182,7 +182,7 @@ layout: compress
     <a class="infobanner" id="popover-open">
         <div class="infobanner__redaxo">
             <!-- <img class="infobanner__logo" src="{{ '/assets/images/redaxo.svg' | relative_url }}" alt="REDAXO"> -->
-            <span>OXID Community Map</span>
+            <span>Shopware Community Map</span>
         </div>
         <div class="infobanner__join">
             <span class="infobanner__heart">♥</span>
@@ -197,19 +197,19 @@ layout: compress
         <div class="popover__body">
 
             <h1 class="popover__title">
-                <!-- <img class="redaxo-logo" src="{{ '/assets/images/redaxo-cms.svg' | relative_url }}" alt="REDAXO"><br> -->
-                Oxid Community Map
+                <!-- <img class="redaxo-logo" src="{{ '/assets/images/redaxo-cms.svg' | relative_url }}" alt="Shopware"><br> -->
+                Shopware Community Map
             </h1>
 
-            <p>Any of the {{ itemsCount }} location markers on this map represent someone who’s involved in development of OXID eShop, which we - as the community - believe is one of the most fine shopping cart software around.&nbsp;✌️</p>
-            <p>This project is hosted on <a href="https://github.com/FriendsOfOxid/community-map/" target="_blank" rel="noopener noreferrer">GitHub</a>, which allows everyone to <strong>add and manage their map entries by himself</strong>! This is really cool, isn't it?. If you like to join the map, follow the link and find all necessary information:</p>
+            <p>Any of the {{ itemsCount }} location markers on this map represent someone who’s involved in development of Shopware, which we - as the community - believe is one of the most fine shopping cart software around.&nbsp;✌️</p>
+            <p>This project is hosted on <a href="https://github.com/kermie/community-map/" target="_blank" rel="noopener noreferrer">GitHub</a>, which allows everyone to <strong>add and manage their map entries by himself</strong>! This is really cool, isn't it?. If you like to join the map, follow the link and find all necessary information:</p>
 
             <div class="calltoaction">
-                <p>👉 <a href="https://github.com/FriendsOfOxid/community-map/tree/master/_directory" target="_blank" rel="noopener noreferrer">Learn how to add or manage your marker!</a></p>
+                <p>👉 <a href="https://github.com/kermie/community-map/tree/master/_directory" target="_blank" rel="noopener noreferrer">Learn how to add or manage your marker!</a></p>
             </div>
 
             <div class="legals">
-                <p>Legals: this service is provided by the Oxid community which is not represented yet in a manner if ther was an organization or so. We inherited this project from <a href="https://friendsofredaxo.github.io/community/"FriendsOfRedaxo". The software used on this site is <abbr title="Free and Open Source Software">FOSS</abbr> and under MIT open source license.</p>
+                <p>Legals: this service is provided by the Shopware community which is not represented yet in a manner if ther was an organization or so. We inherited this project from <a href="https://friendsofredaxo.github.io/community/"FriendsOfRedaxo". The software used on this site is <abbr title="Free and Open Source Software">FOSS</abbr> and under MIT open source license.</p>
             </div>
 
         </div>

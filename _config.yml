@@ -2,14 +2,14 @@
 # https://jekyllrb.com/docs/configuration/
 
 theme: minima
-repository: FriendsOfOxid/community-map
+repository: kermie/community-map
 plugins: []
 timezone: Europe/Berlin
 
 # SEO
 # https://github.com/jekyll/jekyll-seo-tag
-title: Oxid Community Map
-description: A map filled with people being involved in Oxid esales. Hosted on GitHub, which allows everyone to add their map entries. Join!
+title: Shopware Community Map
+description: A map filled with people being involved in Shopware. Hosted on GitHub, which allows everyone to add their map entries. Join!
 
 # Assets
 # https://jekyllrb.com/docs/assets/

@@ -1,12 +1,12 @@
-# Oxid Community Map
+# Shopware Community Map
 
-A map filled with people being involved in Oxid development. Hosted on GitHub, which allows everyone to add their map entries. ♥ Join us!
+A map filled with people being involved in Shopware development. Hosted on GitHub, which allows everyone to add their map entries. ♥ Join us!
 
-👉 __https://friendsofoxid.github.io/community-map/__
+👉 __https://kermie.github.io/community-map/__
 
 ![Screenshot](assets/john_doe.png)
 
-The screenshot above shows what user entries look like. You’ll even get your own URL for your entry, which is awesome! Look, this is a [link to Rüdiger](https://friendsofoxid.github.io/community-map/#gn2).
+The screenshot above shows what user entries look like. You’ll even get your own URL for your entry, which is awesome! Look, this is a [link to Mario](https://kermie.github.io/community-map/#example).
 
 ## How to add and manage your entry?
 
